@@ -196,6 +196,43 @@ main {
     justify-content: center;
     align-items: center;
 }
+.contactos {
+    display: grid;
+    grid-template-columns: 200px 800px 200px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    grid-template-areas: "...   titulo     ..."
+                         "...   nombre     ..."
+                         "...   apellido   ..." 
+                         "...   mail       ..."
+                         "...   infomail   ..."
+                         "...   botonEnvio ...";
+    justify-content: center;
+    align-items: center;
+}
+.datosCompra {
+    display: grid;
+    grid-template-columns: 200px 800px 200px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 130px 80px;
+    grid-template-areas: "...   titulo     ..."
+                         "...   nombre     ..."
+                         "...   apellido   ..." 
+                         "...   mail       ..."
+                         "...   pais       ..."
+                         "...   infomail   ..."
+                         "...   areaTexto  ..."
+                         "...   botonEnvio ...";
+    justify-content: center;
+    align-items: center;
+}
+.contenedorBio {
+    display: grid;
+    grid-template-columns: 200px 800px 200px;
+    grid-template-rows: 80px 600px;
+    grid-template-areas: "...   tituloBio     ..."
+                         "...   parrafo2      ...";
+    justify-content: center;
+    align-items: center;
+}
 .contenedorGaleria {
     display: grid;
     grid-template-columns: 200px 400px 400px 200px;
@@ -342,8 +379,39 @@ h3 {
     font-size: x-large;
 }
 .textocontactos {
-    font-size: x-large;
+    grid-area: titulo;
+    font-size: xx-large;
     padding: 10%;
+}
+.nombre {
+    grid-area: nombre;
+}
+.apellido {
+    grid-area: apellido;
+}
+.mail {
+    grid-area: mail;
+}
+.infomail {
+    grid-area: infomail;
+}
+.botonEnvio {
+    grid-area: botonEnvio;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    margin-left: 47%;
+}
+.botonEnvio:hover {
+    background: #D9B97E;
+}
+.pais {
+    grid-area: pais;
+}
+.areaTexto {
+    grid-area: areaTexto;
 }
 .tamañoA {
     font-size: xx-large;
@@ -355,9 +423,11 @@ h3 {
 .tituloBio {
     font-size: xx-large;
     margin-bottom: 3%;
+    grid-area: tituloBio;
 }
 .parrafo2 {
     font-size: x-large;
+    grid-area: parrafo2;
 }
 .btn2 {
     border: #D9B97E;
