@@ -30,9 +30,9 @@ header {
     background-image: url(./assets/img/Damir.JPEG);
     background-size: cover;
 }
-@media screen and (max-width:500px) { 
+@media screen and (max-width:600px) { 
     header {
-        width: 165%;
+        width: 100%;
     }
 
 }
@@ -115,6 +115,7 @@ ul {
 @media screen and (min-width:768px){
     ul {
         flex-direction:row;
+    
     }
 }
 li {
@@ -242,38 +243,130 @@ main {
     gap: 10px;
     row-gap: 30px;
 }
-@media screen and (max-width:768px){
-    .contenedorGaleria {
-        flex-direction:column;
-        width: 200px;
-        height: 1550px;
+@media screen and (max-width:600px){
+    div.gidGeneral {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "header"
+                             "main"
+                             "footer";
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "pintura1"
+                             "pintura2" 
+                             "pintura3"
+                             "seguime"
+                             "mail"
+                             "mercado";
+        justify-content: center;
         align-items: center;
-        margin-left: 40%;
+        margin-left: 20%;
+        margin-right: 20%;
         margin-bottom: 3%;
     }
+    .contactos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 60px 60px 60px 60px 60px;
+        grid-template-areas: "   titulo "
+                             "  nombre "
+                             "   apellido " 
+                             " mail  "
+                             " infomail "
+                             "  botonEnvio ";
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+    .contenedorGaleria {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+        margin-top: -5%;
+        margin-left: 15%;
+        width: fit-content;
+    }
+    .contenedorGaleriaAbs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "aA" 
+                             "aB"
+                             "aC"
+                             "aD";
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .abstractaA {
+        margin-left: 15%;
+    }
+    .abstractaB {
+        margin-left: 5%;
+    }
+    .abstractaC {
+        margin-left: 10%;
+    }
+    .abstractaD {
+        padding-left: 10%;
+    }
+    .contenedorGaleriaRetratos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "rA" 
+                             "rB"
+                             "rC"
+                             "rD";
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 10px;
+        padding-right: 10%;
+    }
+    .datosCompra {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 60px 60px 60px 60px 60px 110px 60px;
+        grid-template-areas: "titulo"
+                             "nombre"
+                             "apellido" 
+                             "mail"
+                             "pais"
+                             "infomail"
+                             "areaTexto"
+                             "botonEnvio";
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 30%;
+    }
+    .contenedorBio {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 600px;
+        grid-template-areas: "tituloBio"
+                             "parrafo2";
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafo2 {
+        margin-top: 1%;
+        font-size: large;
+    }
 }
-.contenedorGaleriaRetratos {
-    display: grid;
-    grid-template-columns: 200px 400px 400px 200px;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "... rA rB ..."
-                         "... rC rD ...";
-    justify-content:space-evenly;
-    align-items: center;
-    gap: 10px;
-    row-gap: 30px;
-}
-.contenedorGaleriaAbs {
-    display: grid;
-    grid-template-columns: 200px 400px 400px 200px;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "... aA aB ..."
-                         "... aC aD ...";
-    justify-content:space-evenly;
-    align-items: center;
-    gap: 10px;
-    row-gap: 30px;
-}
+
 .abstracta1 {
     margin-left: 9%;
 }
@@ -285,7 +378,7 @@ grid-area: pintura1;
 }
 .contenedor .card2 {
     grid-area: pintura2;
-    margin-left: 12%;
+    margin-left: 7%;
     margin-top: -8%;
 }
 .contenedor .card3 {
@@ -306,19 +399,6 @@ grid-area: pintura1;
         background-color: none;
         margin-left: -5%;
     }
-
-
-
-@media screen and (max-width:768px){
-    .contenedor {
-        flex-direction:column;
-        width: 600px;
-        height: 800px;
-        align-items: center;
-        margin-left: 20%;
-    }
-
-}
 .instagram {
     width: 40px;
     height: 40px;
@@ -395,14 +475,54 @@ h3 {
 .infomail {
     grid-area: infomail;
 }
+@media screen and (min-width:601px) {
+    .botonEnvio {
+        grid-area: botonEnvio;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        width: fit-content;
+        display: flex;
+        align-self: center;
+        padding: 6%;
+    }
+    .contenedorGaleriaAbs {
+        display: grid;
+        grid-template-columns: 200px 400px 400px 200px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "... aA aB ..."
+                             "... aC aD ...";
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+    }
+    .contenedorGaleriaRetratos {
+        display: grid;
+        grid-template-columns: 200px 400px 400px 200px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "... rA rB ..."
+                             "... rC rD ...";
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+    }
+    .parrafo2 {
+        font-size: x-large;
+        grid-area: parrafo2;
+    }
+    
+}
 .botonEnvio {
     grid-area: botonEnvio;
     background-color: transparent;
     border: none;
     cursor: pointer;
     width: fit-content;
+    display: flex;
     align-self: center;
-    margin-left: 47%;
+    margin-left: 40%;
 }
 .botonEnvio:hover {
     background: #D9B97E;
@@ -425,28 +545,10 @@ h3 {
     margin-bottom: 3%;
     grid-area: tituloBio;
 }
-.parrafo2 {
-    font-size: x-large;
-    grid-area: parrafo2;
-}
+
 .btn2 {
     border: #D9B97E;
     border-style: double;
-}
-
-
-@media screen and (max-width:768px){
-    .contenedorGaleriaAbs {
-        flex-direction:column;
-        width: 200px;
-        height: 1550px;
-        align-items: center;
-        margin-left: 35%;
-        margin-bottom: 3%;
-    }
-    .semicontenedor2Abstractas {
-    margin-right: -35%;
-}
 }
 .semicontenedorAbstractas {
     margin-left: 70%;
@@ -516,23 +618,9 @@ margin-left: 10%;
 .card5Abs {
     margin-left: 34%;
 }
-@media screen and (max-width:768px){
-    .contactos {
-        display: flex;
-        flex-direction: column;
-padding-left: 0%;
-    }
-}
 .btnbuy {
     margin-top: 10%;
     align-self: center;
-}
-@media screen and (max-width:768px){
-    .datosCompra {
-        display: flex;
-        flex-direction: column;
-padding-left: 0%;
-    }
 }
 .headerFull {
     align-items: center;
