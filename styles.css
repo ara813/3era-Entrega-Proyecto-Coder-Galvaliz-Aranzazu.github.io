@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: fontAwesome ;
+    src: url(../fonts/fa-solid-900.ttf);
+}
 body {
     background-color:#D9B97E;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,20 +55,41 @@ nav {
     flex-flow: row;
     height: 250px;
     width: auto;
-    align-items:center
+    align-items:center;
+    justify-content: center;
 }
-.svg {
-    position:absolute;
-    top: 0.5rem;
-    right: 1.5rem;
-    width: 10px;
-    cursor: pointer;
-    color:white;
+.navbar > label::before {
+    content: "\f0c9";
+    font-family: fontAwesome;
+    display: none;
 }
-.buttonMenu {
-    align-self: center;
-    width: fit-content;
-    margin-left: -30%;
+.navbar >input [type=checkbox]{
+    display: none;
+}
+.navbar > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.navbar > ul > li {
+    position: relative;
+}
+.navbar > ul > li:hover ul{
+    max-height: 300px;
+    transition: 0.5s;
+}
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+}
+.navbar >ul >li >ul {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    list-style-type: none;
+    left: -12px;
+    z-index: 2;
 }
 a {
     text-decoration: none;
@@ -244,6 +270,41 @@ main {
     row-gap: 30px;
 }
 @media screen and (max-width:600px){
+    .navbar {
+        justify-content: space-between;
+        position:absolute;
+        width: 100vw;
+    }
+    .navbar > label::before {
+        display: block;
+        padding: 20px;
+    }
+    .navbar > input[type=checkbox]:checked + label::before {
+        content: "\58";
+    }
+    .navbar > input[type=checkbox]:checked + ul {
+        left: 0;
+    }
+    .navbar > ul {
+        
+        position: fixed;
+        flex-direction: column;
+        width: 250px;
+        height: calc(100vh - 70px);
+        justify-content: start;
+        padding-top: 60px;
+        align-items: center;
+        bottom: 0;
+        left: -500px;
+        transition: 0.2s;
+        z-index: 2;
+    }
+    .navbar > ul:hover {
+        left:0;
+    }
+    .logo {
+        position: sticky;
+    }
     div.gidGeneral {
         display: grid;
         grid-template-columns: 1fr;
