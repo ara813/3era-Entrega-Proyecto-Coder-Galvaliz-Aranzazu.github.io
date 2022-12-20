@@ -29,25 +29,38 @@ header {
     grid-area: header;
     height: fit-content;
     padding: 1em;
-    display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
     background-image: url(./assets/img/Damir.JPEG);
     background-size: cover;
+}
+.gridSuperior {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "hamburguesa texto logo";
+    justify-content: center;
 }
 @media screen and (max-width:600px) { 
     header {
         width: 100%;
     }
-
+    .logo {
+        padding: 10%;}
+}
+.headertext {
+    grid-area: texto;
+    margin-top: 30%;
 }
 nav {
+    grid-area: hamburguesa;
     width:100%;
-    height: fit-content;
+    height:auto;
     padding: 1em;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+   
 }
 .navbar {
     background-color:none;
@@ -60,11 +73,19 @@ nav {
 }
 .navbar > label::before {
     content: "\f0c9";
+    color: aliceblue;
+    background: transparent;
+    font-size: xx-large;
     font-family: fontAwesome;
     display: none;
+    cursor: pointer;
+    overflow: auto;
+    border: transparent;
+    position:sticky
 }
-.navbar >input [type=checkbox]{
+input [type=checkbox]{
     display: none;
+    visibility: hidden;
 }
 .navbar > ul{
     list-style: none;
@@ -91,14 +112,24 @@ nav {
     left: -12px;
     z-index: 2;
 }
+.subMenu {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: space-around;
+    gap: 20%;
+}
 a {
     text-decoration: none;
 }
+.logo {
+    grid-area: logo;
+}
 .logo img {
-    height: 100px;
-    position: absolute;
-    margin-left: -15%;
-    margin-top: -5%;
+    height: 80px;
+    position: end;
+    margin-left: 15%;
+    margin-top: 95%;
     margin-right: 0%;
 
 } 
@@ -137,6 +168,7 @@ ul {
     align-items: center;
     justify-content: space-around;
     width:100%;
+    gap: 1%;
 }
 @media screen and (min-width:768px){
     ul {
@@ -147,19 +179,15 @@ ul {
 li {
 padding: 10px 30px;
 display: inline-block;
-background-color:none;
+background-color:pink;
 text-transform: uppercase;
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 .li:hover{
     background: #D9B9;
 }
-
 .logo {
     display: flex;
-}
-.svg {
-width: 2em;
-height: 2em;
 }
 .card.tamañotexto {
     font-size:large;
