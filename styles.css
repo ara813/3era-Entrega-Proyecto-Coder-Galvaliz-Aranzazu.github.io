@@ -55,7 +55,7 @@ header {
 nav {
     grid-area: hamburguesa;
     width:100%;
-    height:auto;
+    height:80px;
     padding: 1em;
     display: flex;
     flex-flow: row;
@@ -72,8 +72,8 @@ nav {
     justify-content: center;
 }
 .navbar > label::before {
-    content: "\f0c9";
-    color: aliceblue;
+    content: icon;
+    color: indigo;
     background: transparent;
     font-size: xx-large;
     font-family: fontAwesome;
@@ -81,7 +81,54 @@ nav {
     cursor: pointer;
     overflow: auto;
     border: transparent;
-    position:sticky
+    position: absolute;
+    background-color: #80C7FF;
+}
+.navLabel {
+    display: block;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 0.5em;
+
+
+}
+@media screen and (min-width:650px) {
+.fa-solid.fa-bars::before {
+    visibility: hidden;
+}
+.fa-solid.fa-x::before {
+    visibility: hidden;
+}
+}
+.navbar input:checked + .ul_menu{
+    display: flex;
+    
+}
+.ul_menu,  .navInput, .navLavel {
+    display: none;
+
+}
+
+@media screen and(max-width:600px) {
+.ul_menu{
+    position: fixed;
+    margin-top: 80%;
+    top: 100px;
+    bottom: 0;
+    width: fit-content;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8CFF85;
+}
+}
+.navInput:checked + .ul_menu {
+    clip-path: circle(100% at center);
 }
 input [type=checkbox]{
     display: none;
@@ -111,13 +158,6 @@ input [type=checkbox]{
     list-style-type: none;
     left: -12px;
     z-index: 2;
-}
-.subMenu {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column;
-    justify-content: space-around;
-    gap: 20%;
 }
 a {
     text-decoration: none;
