@@ -53,6 +53,15 @@ header {
     grid-area: texto;
     margin-top: 30%;
 }
+.headerFullB {
+    height: 230px;
+    width: 110%;
+}
+.headertextB {
+    display: flex;
+    margin-top: 50%;
+    font-size: xx-large;
+}
 nav {
     grid-area: hamburguesa;
     width:100%;
