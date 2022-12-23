@@ -9,13 +9,19 @@
     src: url(../fonts/fa-solid-900.ttf);
     
 }
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+.fuente-primaria {
+    font-family: 'Xanh Mono', monospace;
+    width: auto;
+}
 body {
+    font-family: 'Xanh Mono', monospace;
     background-color:#D9B97E;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
     background-image: url(./assets/img/aesthetic-wallpaper-pink-smoke-background.jpg);
     background-size: cover;
     text-align: center;
+    width:100%;
+    overflow-x: hidden;
 } 
 div.gidGeneral {
     display: grid;
@@ -34,6 +40,7 @@ header {
     justify-content: center;
     background-image: url(./assets/img/Damir.JPEG);
     background-size: cover;
+    width: 1262px;
 }
 .gridSuperior {
     display: grid;
@@ -43,24 +50,37 @@ header {
     justify-content: center;
 }
 @media screen and (max-width:600px) { 
+    .body {
+        width:100%;
+        overflow-x: hidden;
+    }
     header {
-        width: 100%;
+        width: 110%;
     }
     .logo {
         padding: 10%;}
 }
 .headertext {
     grid-area: texto;
-    margin-top: 30%;
+    margin-top: 0%;
+    font-size: x-large;
 }
 .headerFullB {
     height: 230px;
     width: 110%;
+    
+}
+.headerFull {
+    height: 230px;
+    width: 110%;
+    align-items: center;
 }
 .headertextB {
     display: flex;
-    margin-top: 50%;
+    margin-top: 40%;
+    margin-left: 10%;
     font-size: xx-large;
+    text-decoration: none;
 }
 nav {
     grid-area: hamburguesa;
@@ -188,7 +208,10 @@ a {
     text-shadow: 2px 2px 3px black;
 }
 .headertext {
-    font-size: 300%;
+    font-size: xx-large;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 10%;
 }
 .color1 {
   color: blueviolet;
@@ -608,8 +631,17 @@ h3 {
     font-size: xx-large;
     padding: 10%;
 }
-.nombre {
-    grid-area: nombre;
+.footerB{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.botonSend {
+    display: flex;
+    justify-content: center;
+}
+.name {
+    display: flex;
 }
 .apellido {
     grid-area: apellido;
