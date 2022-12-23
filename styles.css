@@ -59,11 +59,32 @@ header {
     }
     .logo {
         padding: 10%;}
+    .headertext {
+        padding: 10%;
+        margin-top: 40%;
+    }
+}
+@media  screen and (min-width:601px) {
+    .headertextB {
+        display: flex;
+        margin-top: 40%;
+        margin-left: 10%;
+        font-size: xx-large;
+        text-decoration: none;
+        text-align: center;
+    }
+    .txtContact {
+        display: flex;
+        justify-content: center;
+        padding-left: 4%;
+    }
 }
 .headertext {
     grid-area: texto;
-    margin-top: 0%;
-    font-size: x-large;
+    font-size: xx-large;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 10%;
 }
 .headerFullB {
     height: 230px;
@@ -75,12 +96,15 @@ header {
     width: 110%;
     align-items: center;
 }
+
 .headertextB {
     display: flex;
-    margin-top: 40%;
-    margin-left: 10%;
+    margin-top: 45%;
+    margin-left: 12%;
     font-size: xx-large;
     text-decoration: none;
+    text-align: center;
+    line-height: 37px;
 }
 nav {
     grid-area: hamburguesa;
@@ -207,12 +231,7 @@ a {
     color: rgb(237, 167, 36);
     text-shadow: 2px 2px 3px black;
 }
-.headertext {
-    font-size: xx-large;
-    display: flex;
-    margin-top: 30%;
-    margin-left: 10%;
-}
+
 .color1 {
   color: blueviolet;
 }
@@ -361,11 +380,15 @@ main {
 .contenedorBio {
     display: grid;
     grid-template-columns: 200px 800px 200px;
-    grid-template-rows: 80px 600px;
+    grid-template-rows: 80px 700px;
     grid-template-areas: "...   tituloBio     ..."
                          "...   parrafo2      ...";
     justify-content: center;
     align-items: center;
+}
+.parrafo2 {
+    grid-area: parrafo2;
+    font-size: x-small;
 }
 .contenedorGaleria {
     display: grid;
@@ -531,7 +554,7 @@ main {
     }
     .parrafo2 {
         margin-top: 1%;
-        font-size: large;
+        font-size: medium;
     }
 }
 
