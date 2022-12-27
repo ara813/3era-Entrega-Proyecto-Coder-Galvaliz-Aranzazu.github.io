@@ -481,7 +481,7 @@ main {
         align-items: center;
         gap: 10px;
         row-gap: 30px;
-        margin-top: -5%;
+        margin-bottom: 5%;
         margin-left: 15%;
         width: fit-content;
     }
@@ -570,7 +570,7 @@ grid-area: pintura1;
 .contenedor .card2 {
     grid-area: pintura2;
     margin-left: 7%;
-    margin-top: -8%;
+    margin-bottom: 8%;
 }
 .contenedor .card3 {
     grid-area: pintura3;
@@ -578,7 +578,7 @@ grid-area: pintura1;
 .contenedor .card4 {
     float: left ;
     background-color: none;
-    margin-left: -1%;
+    margin-right: 1%;
     }
 .contenedor .card5 {
         float: left ;
@@ -588,7 +588,7 @@ grid-area: pintura1;
 .contenedor3 .card6 {
         float: left ;
         background-color: none;
-        margin-left: -5%;
+        margin-right: 5%;
     }
 .instagram {
     width: 40px;
@@ -754,7 +754,7 @@ h3 {
     margin-left: 70%;
 }
 .semicontenedor2Abstractas {
-    margin-left: -70%;
+    margin-right: 70%;
     align-content:space-between;
 }
 .card1Abs {
@@ -802,14 +802,14 @@ margin-left: 10%;
     margin-right: 90%
 }
 .semicontenedor2Ret {
-    margin-right: -50%;
+    margin-left: 50%;
 }
 }
 .semicontenedorRet {
     margin-left: 70%;
 }
 .semicontenedor2Ret {
-    margin-left: -70%;
+    margin-right: 70%;
     align-content:space-between;
 }
 .card1Abs {
