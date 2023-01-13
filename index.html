@@ -4,8 +4,9 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="styles.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link rel="stylesheet" href="assets/css/styles.css">
      <title>Yaz Arte POP</title> 
         <link 
          rel="shortcut icon" 
@@ -58,8 +59,7 @@
             <p class="color1"> <strong>Yaz Original 2022</strong> </p>
             <a href="pages/micarrito.html" class="btn">Comprar</a>
         </div>
-    
-    <div class="cajaY">
+    <div class="cajaY" data-aos="fade-up">
         <p class="tamañoletra">Seguime en Instagram</p>
         <button class="btninsta">
           <a href="https://www.instagram.com/yaz_artepop"><svg xmlns="http://www.w3.org/2000/svg" class="instagram" viewBox="0 0 16 16">
@@ -92,5 +92,25 @@
 <h3> Todos los derechos reservados Aranzazu Galvaliz 2022</h3>
      </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        disable: false, 
+        startEvent: 'DOMContentLoaded',
+        initClassName: 'aos-init', 
+        animatedClassName: 'aos-animate', 
+        useClassNames: false, 
+        disableMutationObserver: false, 
+        debounceDelay: 50, 
+        throttleDelay: 99, 
+        offset: 120, 
+        delay: 0,
+        duration: 400, 
+        easing: 'ease',
+        once: false, 
+        mirror: false,
+        anchorPlacement: 'top-bottom',
+      });
+    </script>
  </body>
 </html>

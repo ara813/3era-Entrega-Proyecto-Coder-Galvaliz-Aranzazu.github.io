@@ -1,0 +1,19 @@
+.img {
+    border-style: dotted;
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    object-position: 50%;
+    &:hover  {
+        transform: scale(1.5);
+        transition: transform 0.5s;
+    }
+}
+.tamañoA {
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    color: #D9B97E;
+    text-shadow: 1px 1px 3px black;
+}

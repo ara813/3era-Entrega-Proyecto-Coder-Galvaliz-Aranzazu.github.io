@@ -1,0 +1,185 @@
+@import "mixins";
+@import "base";
+.card1 {
+        @include letraslindas;
+        > img { @extend .img;}
+}
+.card2 {
+        @include letraslindas;
+        > img { @extend .img;}
+    }
+.card3 {
+        @include letraslindas;
+        > img { @extend .img;}
+    }
+.cajaX {
+        width: 75%;
+        font-size: xx-large;
+        box-shadow: 1px 1px 2px 2px beige;
+        align-self: center;
+        align-items: center;
+        margin-left: 10%;
+        > img { @extend .img;}
+        .arrowdown {
+            width: 30%;
+            align-self: center;
+            margin-right: 20%;
+            padding: 8%;
+            margin: 15%;
+        }
+    }
+.cajaY {
+        font-size: x-large;
+        > img { @extend .img;}
+        .instagram {
+            width: 40px;
+            height: 40px;
+        }
+        .btninsta {
+            background-color:transparent;
+            border: none;
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+        .numerotelefono {
+            text-decoration: underline;
+        }
+        .whatsapp {
+            height: 40px;
+            width: 40px;
+            margin-top: 20%;
+            margin-bottom: 20%;
+        }
+    }
+.cajaZ {
+        font-size: xx-large;
+        > img { @extend .img;}
+        .bagheart {
+            font-size: large;
+            width: 40px;
+            margin-bottom: 20%;
+            align-self: center;
+            margin: 30%;
+        }
+    }
+.abstracta1 {
+        margin-top: 10px;
+        margin-left: 9%;
+        @include letraslindas;
+        > img { @extend .img;}
+    }
+.abstracta2 {
+        margin-left: 11%;
+        @include letraslindas;
+        > img { @extend .img;}
+    }
+.retrato1 {
+        @include letraslindas;
+        > img { @extend .img;}
+    }
+.retrato2 {
+        @include letraslindas;
+        > img { @extend .img;}
+    }
+.abstractaA {
+        grid-area: abstractaA;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+.abstractaB{
+        grid-area: abstractaB;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+.abstractaC{
+        grid-area: abstractaC;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+.abstractaD{
+        grid-area: abstractaD;
+        margin-left: 10%;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+
+.retratoA{
+        grid-area: rA;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+.retratoB{
+        grid-area: rB;
+        @include letraslindas;
+        > img { @extend .img;}
+        } 
+.retratoC{
+        grid-area: rC;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+.retratoD{
+        grid-area: rD;
+        @include letraslindas;
+        > img { @extend .img;}
+        }
+@media screen and (max-width:700px) {
+    .card1 {
+        margin-left: 15%;
+        @include letraslindas;
+    }
+    .card2 {
+            margin-left: 15%;
+            @include letraslindas;
+        }
+    .card3 {
+            margin-left: 15%;
+            @include letraslindas;
+        }
+    .cajaX {
+            margin-left: 23%;
+        }
+    .cajaY {
+            margin-left: 20%;
+        }
+    .cajaZ {
+            margin-left: 23%;
+        }
+    .abstracta1 {
+            margin-top: 10px;
+            margin-left: 0%;
+        }
+    .abstracta2 {
+            margin-left: 0%;
+        }
+    .retrato1 {
+            margin-left: 0%; 
+        }
+    .retrato2 {
+        margin-left: 0%;
+        }
+    .abstractaA {
+            margin-left: 15%;
+            @include letraslindas;
+            
+        }
+    .abstractaB {
+            margin-left: 5%;
+            @include letraslindas;
+            
+        }
+    .abstractaC {
+            margin-left: 10%;
+            @include letraslindas;
+            
+        }
+    .abstractaD {
+            padding-left: 10%;
+            @include letraslindas;
+            
+        }
+    .parrafo2 {
+            font-size: x-large;
+            grid-area: parrafo2;
+        }    
+}

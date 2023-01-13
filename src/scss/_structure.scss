@@ -1,0 +1,238 @@
+@import "variables";
+@import "tarjetas";
+@import "mixins";
+body {
+    font-family: 'Xanh Mono', monospace;
+    background-color:#D9B97E;
+    background-image: url(/assets/img/aesthetic-wallpaper-pink-smoke-background.jpg);
+    background-size: cover;
+    text-align: center;
+    width:100%;
+    overflow-x: hidden;
+    .gidGeneral {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "header header header header"
+                             "main   main   main   main"
+                             "main   main   main   main"
+                             "footer footer footer footer";
+    }
+} 
+header {
+    grid-area: header;
+    .gridSuperior {
+        display: grid;
+        grid-template-columns:  3fr 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "hamburguesa texto logo";
+        justify-content: center;
+    }
+}
+main {
+    grid-area: main;
+    .titulo {@extend .tamañoA}
+    .textocontactos {
+        grid-area: titulo;
+        font-size: xx-large;
+        padding: 10%;
+    }
+    .botonSend {
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "card1    card2    card3"
+                             "cajay    cajax    cajaz";
+        justify-content: center;
+        align-items: center;
+        @each $cards in card1, card2, card3, cajax, cajay, cajaz {
+            .contenedor.#{$cards}{
+             grid-area:#{$cards};
+           }
+        } 
+        .btnbuy {
+            margin: 50%;
+            margin-left: 35%;
+            @include boton;
+        }
+    }
+    .contenedorGaleria {
+        display: grid;
+        grid-template-columns: 200px 400px 400px 200px;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+        .btn2 {
+        @include boton;
+        margin: 0%;
+        margin-left: 40%;
+        }
+    }
+    .contenedorGaleriaAbs {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: " abstractaA abstractaB "
+                             " abstractaC abstractaD ";
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+    }
+    .contenedorGaleriaRetratos {
+        display: grid;
+        grid-template-columns: 200px 400px 400px 200px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "... rA rB ..."
+                             "... rC rD ...";
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 10px;
+        row-gap: 30px;
+    }
+    .contenedorBio {
+        display: grid;
+        grid-template-columns: 200px 800px 200px;
+        grid-template-rows: 80px 700px;
+        grid-template-areas: "...   tituloBio     ..."
+                             "...   parrafo2      ...";
+        justify-content: center;
+        align-items: center;
+        .tituloBio {
+            margin-top: 10%;
+            font-size: xx-large;
+            margin-bottom: 3%;
+            grid-area: tituloBio;
+        }
+        .parrafo2 {
+            grid-area: parrafo2;
+            font-size:x-large;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+    }
+}
+footer {
+    margin-top: 30px;
+    align-self: center;
+    align-content: center;
+    grid-area: footer;
+    h3 {
+        font-size: x-large;
+    }
+}
+@media screen and (max-width:700px) { 
+        body {
+            width: 100%;
+            overflow-x: hidden;
+            .gidGeneral {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas: "header"
+                                     "main"
+                                     "footer";
+            }
+        }
+        header {
+            grid-area: header;
+            .gridSuperior {
+                display: grid;
+                grid-template-columns:  1fr 1fr 1fr;
+                grid-template-rows: 1fr;
+                grid-template-areas: "hamburguesa texto logo";
+                justify-content: center;
+            }
+        }
+        main {
+            grid-area: main;
+            .contenedor {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-areas: "card1"
+                                     "card2" 
+                                     "card3"
+                                     "cajay"
+                                     "cajax"
+                                     "cajaz";
+                justify-content: center;
+                align-items: center;
+                margin-left: 10%;
+                margin-right: 20%;
+                margin-bottom: 3%;
+                .btnbuy {
+                    margin: 50%;
+                    margin-left: 30%;
+                }
+            }
+            .contenedorGaleria {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 60px;
+                justify-content:space-evenly;
+                align-items: center;
+                gap: 10px;
+                row-gap: 30px;
+                margin-bottom: 5%;
+                margin-left: 15%;
+                width: fit-content;
+            }
+            .contenedorGaleriaAbs {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas: "abstractaA" 
+                                     "abstractaB"
+                                     "abstractaC"
+                                     "abstractaD";
+                justify-content:space-evenly;
+                align-items: center;
+                gap: 10px;
+                row-gap: 30px;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+            .contenedorGaleriaRetratos {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas: "rA" 
+                                     "rB"
+                                     "rC"
+                                     "rD";
+                justify-content:space-evenly;
+                align-items: center;
+                gap: 10px;
+                row-gap: 10px;
+                padding-right: 10%;
+            }
+            .contenedorBio {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 80px 600px;
+                grid-template-areas: "tituloBio"
+                                     "parrafo2";
+                justify-content: center;
+                align-items: center;
+                .parrafo2 {
+                    margin-top: 1%;
+                    font-size:medium;
+                }
+            }
+   
+    }
+    footer {
+        grid-area: footer;
+        margin-top: 30px;
+        align-self: center;
+        align-content: center;
+    }
+    }
