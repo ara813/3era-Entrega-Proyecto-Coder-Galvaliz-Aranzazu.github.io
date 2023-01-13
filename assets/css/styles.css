@@ -31,6 +31,7 @@
   color: #D9B97E;
   text-shadow: 1px 1px 3px black; }
 
+/* Tarjetas Index */
 .card1 {
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
@@ -84,6 +85,7 @@
     align-self: center;
     margin: 30%; }
 
+/* Tarjetas Galeria */
 .abstracta1 {
   margin-top: 10px;
   margin-left: 9%;
@@ -103,6 +105,7 @@
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
 
+/* Tarjetas Obras Abstractas*/
 .abstractaA {
   grid-area: abstractaA;
   text-shadow: 1px 1px 3px #f5efef;
@@ -124,6 +127,7 @@
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
 
+/*Tarjetas Retratos*/
 .retratoA {
   grid-area: rA;
   text-shadow: 1px 1px 3px #f5efef;
@@ -144,6 +148,7 @@
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
 
+/*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
     margin-left: 15%;
@@ -192,6 +197,8 @@
     font-size: x-large;
     grid-area: parrafo2; } }
 
+/* Estructura general del proyecto */
+/* Body */
 body {
   font-family: 'Xanh Mono', monospace;
   background: linear-gradient(to bottom, pink 10%, #45a6eb 90%);
@@ -205,6 +212,7 @@ body {
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "header header header header" "main   main   main   main" "main   main   main   main" "footer footer footer footer"; }
 
+/* Header */
 header {
   grid-area: header; }
   header .gridSuperior {
@@ -214,6 +222,7 @@ header {
     grid-template-areas: "hamburguesa texto logo";
     justify-content: center; }
 
+/* Main */
 main {
   grid-area: main; }
   main .textocontactos {
@@ -310,6 +319,7 @@ main {
       margin-top: 10%;
       margin-bottom: 5%; }
 
+/* Footer */
 footer {
   margin-top: 30px;
   align-self: center;
@@ -318,6 +328,7 @@ footer {
   footer h3 {
     font-size: x-large; }
 
+/* Sector movile */
 @media screen and (max-width: 700px) {
   body {
     width: 100%;
@@ -519,6 +530,7 @@ a {
     margin-left: 0%;
     justify-content: center; }
 
+/* Header movile*/
 @media screen and (max-width: 700px) {
   .headerFull {
     height: 230px;
@@ -613,6 +625,7 @@ a {
   .fa-solid.fa-x::before {
     visibility: hidden; } }
 
+/* Contenido Boostrap */
 body {
   padding: 0%;
   margin: 0%;
@@ -659,6 +672,7 @@ header {
       margin-left: 50%;
       justify-content: center; }
 
+/* Version Desktop */
 @media screen and (min-width: 601px) {
   .headerFullB {
     justify-content: space-between;
@@ -736,6 +750,7 @@ header {
   color: #D9B97E;
   text-shadow: 1px 1px 3px black; }
 
+/* Tarjetas Index */
 .card1 {
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
@@ -789,6 +804,7 @@ header {
     align-self: center;
     margin: 30%; }
 
+/* Tarjetas Galeria */
 .abstracta1 {
   margin-top: 10px;
   margin-left: 9%;
@@ -808,6 +824,7 @@ header {
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
 
+/* Tarjetas Obras Abstractas*/
 .abstractaA {
   grid-area: abstractaA;
   text-shadow: 1px 1px 3px #f5efef;
@@ -829,6 +846,7 @@ header {
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
 
+/*Tarjetas Retratos*/
 .retratoA {
   grid-area: rA;
   text-shadow: 1px 1px 3px #f5efef;
@@ -849,6 +867,7 @@ header {
   text-shadow: 1px 1px 3px #f5efef;
   color: blueviolet; }
 
+/*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
     margin-left: 15%;

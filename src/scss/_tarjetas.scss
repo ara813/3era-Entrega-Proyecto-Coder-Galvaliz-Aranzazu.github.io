@@ -1,5 +1,6 @@
 @import "mixins";
 @import "base";
+/* Tarjetas Index */
 .card1 {
         @include letraslindas;
         > img { @extend .img;}
@@ -62,6 +63,7 @@
             margin: 30%;
         }
     }
+/* Tarjetas Galeria */
 .abstracta1 {
         margin-top: 10px;
         margin-left: 9%;
@@ -81,6 +83,7 @@
         @include letraslindas;
         > img { @extend .img;}
     }
+/* Tarjetas Obras Abstractas*/
 .abstractaA {
         grid-area: abstractaA;
         @include letraslindas;
@@ -102,7 +105,7 @@
         @include letraslindas;
         > img { @extend .img;}
         }
-
+/*Tarjetas Retratos*/
 .retratoA{
         grid-area: rA;
         @include letraslindas;
@@ -123,6 +126,7 @@
         @include letraslindas;
         > img { @extend .img;}
         }
+/*Tarjetas Adaptadas Movile*/
 @media screen and (max-width:700px) {
     .card1 {
         margin-left: 15%;
