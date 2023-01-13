@@ -3,8 +3,7 @@
 @import "mixins";
 body {
     font-family: 'Xanh Mono', monospace;
-    background-color:#D9B97E;
-    background-image: url(./assets/img/aesthetic-wallpaper-pink-smoke-background.jpg);
+    background: linear-gradient(to bottom, pink 10%, rgb(69, 166, 235) 90%);
     background-size: cover;
     text-align: center;
     width:100%;
