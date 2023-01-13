@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <meta name="description" content="los retratos pop más coloridos de tus artistas favoritos, si el que buscas no está, ¡puedes encargar el tuyo!">
+    <meta name="keywords" content="pinturas, abstractas, retratos, arte">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Yaz Arte POP</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Yaz Arte POP | Retratos</title>
     <link 
     rel="shortcut icon" 
     href="../assets/img/Project-11.png" 
@@ -38,28 +41,28 @@
     <main>
         <p class="titulo">Retratos</p>
         <div class="contenedorGaleriaRetratos"> 
-            <div class="retratoA" >
-                <img class="zoom" src="../assets/img/5B3FF377-121F-4FD6-BF4B-DD44419B80BE.jpeg" alt="pintura">
+            <div class="retratoA" data-aos="fade-right" >
+                <img class="zoom" src="../assets/img/5B3FF377-121F-4FD6-BF4B-DD44419B80BE.jpg" alt="pintura tributo Lali Esposito">
                 <h2 class="color1"> <em>Pintura Pop tributo a Lali Esposito</em></h2>
                 <p class="color1"> <strong>Yaz Original 2022</strong> </p>
                 <a href="./micarrito.html" class="btn">Comprar</a>
             </div>
-            <div class="retratoB">
-                <img class="zoom" src="../assets/img/520FC596-3DEB-4EA6-AF27-E21CDCC60E02.jpeg" alt="pintura">
+            <div class="retratoB" data-aos="fade-left">
+                <img class="zoom" src="../assets/img/520FC596-3DEB-4EA6-AF27-E21CDCC60E02.jpg" alt="pintura tibuto Folklore Taylor Swift">
                 <h2 class="color1"> <em>Pintura Pop tributo a Folklore</em></h2>
                 <p class="color1"> <strong>Yaz Original 2022</strong> </p>
                 <a href="./micarrito.html" class="btn">Comprar</a>
             </div>
-            <div class="retratoC" >
+            <div class="retratoC" data-aos="fade-right" >
                 
-                <img class="zoom" src="../assets/img/704C3348-69A5-4992-9066-3B4309F56393.jpeg" alt="pintura">
+                <img class="zoom" src="../assets/img/704C3348-69A5-4992-9066-3B4309F56393.jpg" alt="pintura tributo Danna Paola">
                 <h2 class="color1"> <em>Pintura Pop tributo a Danna Paola</em></h2>
                 <p class="color1"> <strong>Yaz Original 2022</strong> </p>
                 <a href="./micarrito.html" class="btn">Comprar</a>
             </div>
-            <div class="retratoD">
+            <div class="retratoD" data-aos="fade-left">
                
-                <img class="zoom" src="../assets/img/35FF8665-A2D5-421A-8F05-ECB53DFF9E96.jpeg" alt="pintura">
+                <img class="zoom" src="../assets/img/35FF8665-A2D5-421A-8F05-ECB53DFF9E96.jpg" alt="pintura tributo Lola Indigo">
                 <h2 class="color1"> <em>Pintura Pop tributo a Lola Indigo</em></h2>
                 <p class="color1"> <strong>Yaz Original 2022</strong> </p>
                 <a href="./micarrito.html" class="btn">Comprar</a>
@@ -71,6 +74,26 @@
      <footer class="footerObras">
         <h3> Todos los derechos reservados Aranzazu Galvaliz 2022</h3>
     </footer>
-</div>  
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    disable: false, 
+    startEvent: 'DOMContentLoaded',
+    initClassName: 'aos-init', 
+    animatedClassName: 'aos-animate', 
+    useClassNames: false, 
+    disableMutationObserver: false, 
+    debounceDelay: 50, 
+    throttleDelay: 99, 
+    offset: 120, 
+    delay: 0,
+    duration: 400, 
+    easing: 'ease',
+    once: false, 
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+  });
+</script>
 </body>
 </html>

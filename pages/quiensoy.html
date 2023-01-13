@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <meta name="description" content="Soy arte">
+    <meta name="keywords" content="pinturas, abstractas, retratos, arte">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Yaz Arte POP</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Yaz Arte POP | La Artista</title>
     <link 
     rel="shortcut icon" 
     href="../assets/img/Project-11.png" 
@@ -35,12 +38,10 @@
                 </div>
             </div>    
          </header>
-    
-    
         <main>
             <div class="contenedorBio">
-    <p class="tituloBio">Te cuento un poco mas de quien soy...</p>
-    <p class="parrafo2"> Naci un 28 de abril del '93, y desde pequeña ya me gustaba el arte en todas sus formas. Comence dibujando como todos los niños y me fui perfeccionando 
+    <p class="tituloBio" data-aos="flip-down" >Te cuento un poco mas de quien soy...</p>
+    <p class="parrafo2" data-aos="flip-up" > Naci un 28 de abril del '93, y desde pequeña ya me gustaba el arte en todas sus formas. Comence dibujando como todos los niños y me fui perfeccionando 
         hacia la pintua a medida que llegue a mi edad adulta juvenil, a eso de los 20 supongo jajaja...
         No recuerdo cuando fue bien que comence a hacer retratos pop 
         exclusivamente pero es lo que mas me divierte hacer. El tomar las medidas del rostro y comprender la complejidad de una expresion lo es todo. Con el 
@@ -59,5 +60,25 @@
         <h3> Todos los derechos reservados Aranzazu Galvaliz 2022</h3>
      </footer>
 </div> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        disable: false, 
+        startEvent: 'DOMContentLoaded',
+        initClassName: 'aos-init', 
+        animatedClassName: 'aos-animate', 
+        useClassNames: false, 
+        disableMutationObserver: false, 
+        debounceDelay: 50, 
+        throttleDelay: 99, 
+        offset: 120, 
+        delay: 0,
+        duration: 400, 
+        easing: 'ease',
+        once: false, 
+        mirror: false,
+        anchorPlacement: 'top-bottom',
+      });
+    </script>
 </body>
 </html>
