@@ -5,7 +5,7 @@
 /* Body */
 body {
     font-family: 'Xanh Mono', monospace;
-    background: linear-gradient(to bottom, pink 10%, rgb(69, 166, 235) 90%);
+    background: linear-gradient(to bottom, #000000 10%, #FFE488 90%);
     background-size: cover;
     text-align: center;
     width:100%;
@@ -39,6 +39,8 @@ main {
         grid-area: titulo;
         font-size: xx-large;
         padding: 10%;
+        text-shadow: 1px 1px 12px #FFE488;
+        color: white ;
     }
     .botonSend {
         display: flex;
@@ -112,6 +114,8 @@ main {
             font-size: xx-large;
             margin-bottom: 3%;
             grid-area: tituloBio;
+            text-shadow: 1px 1px 12px #FFE488;
+            color: white ;
         }
         .parrafo2 {
             grid-area: parrafo2;

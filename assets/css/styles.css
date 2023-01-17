@@ -14,7 +14,8 @@
   width: auto; }
 
 .img, .card1 > img, .card2 > img, .card3 > img, .cajaX > img, .cajaY > img, .cajaZ > img, .abstracta1 > img, .abstracta2 > img, .retrato1 > img, .retrato2 > img, .abstractaA > img, .abstractaB > img, .abstractaC > img, .abstractaD > img, .retratoA > img, .retratoB > img, .retratoC > img, .retratoD > img {
-  border-style: dotted;
+  box-shadow: 1px 1px 2px 2px beige;
+  border-radius: 10%;
   width: auto;
   height: auto;
   max-width: 300px;
@@ -26,23 +27,32 @@
 
 .tamañoA, main .titulo {
   font-size: xx-large;
-  text-decoration: underline;
+  text-decoration: none;
   margin-bottom: 3%;
-  color: #D9B97E;
+  color: #A8D1D1;
   text-shadow: 1px 1px 3px black; }
 
 /* Tarjetas Index */
 .card1 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
+  .card1 .tamañoletra {
+    font-size: x-large; }
 
 .card2 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
+  .card2 .tamañoletra {
+    font-size: x-large; }
 
 .card3 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
+  .card3 .tamañoletra {
+    font-size: x-large; }
 
 .cajaX {
   width: 75%;
@@ -69,7 +79,7 @@
     padding-top: 20%;
     padding-bottom: 20%; }
   .cajaY .numerotelefono {
-    text-decoration: underline; }
+    text-decoration: none; }
   .cajaY .whatsapp {
     height: 40px;
     width: 40px;
@@ -89,79 +99,94 @@
 .abstracta1 {
   margin-top: 10px;
   margin-left: 9%;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstracta2 {
   margin-left: 11%;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retrato1 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retrato2 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 /* Tarjetas Obras Abstractas*/
 .abstractaA {
   grid-area: abstractaA;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstractaB {
   grid-area: abstractaB;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstractaC {
   grid-area: abstractaC;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstractaD {
   grid-area: abstractaD;
   margin-left: 10%;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 /*Tarjetas Retratos*/
 .retratoA {
   grid-area: rA;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retratoB {
   grid-area: rB;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retratoC {
   grid-area: rC;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retratoD {
   grid-area: rD;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .card2 {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .card3 {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .cajaX {
     margin-left: 23%; }
   .cajaY {
@@ -179,20 +204,24 @@
     margin-left: 0%; }
   .abstractaA {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .abstractaB {
     margin-left: 5%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .abstractaC {
     margin-left: 10%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .abstractaD {
     padding-left: 10%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .parrafo2 {
     font-size: x-large;
     grid-area: parrafo2; } }
@@ -201,7 +230,7 @@
 /* Body */
 body {
   font-family: 'Xanh Mono', monospace;
-  background: linear-gradient(to bottom, pink 10%, #45a6eb 90%);
+  background: linear-gradient(to bottom, #000000 10%, #FFE488 90%);
   background-size: cover;
   text-align: center;
   width: 100%;
@@ -228,7 +257,9 @@ main {
   main .textocontactos {
     grid-area: titulo;
     font-size: xx-large;
-    padding: 10%; }
+    padding: 10%;
+    text-shadow: 1px 1px 12px #FFE488;
+    color: white; }
   main .botonSend {
     display: flex;
     justify-content: center; }
@@ -259,10 +290,10 @@ main {
       width: fit-content;
       align-self: center;
       align-items: center;
-      border: #D9B97E;
+      border: #9EA1D4;
       border-style: double; }
       main .contenedor .btnbuy:hover {
-        background: #D9B97E; }
+        background: #9EA1D4; }
   main .contenedorGaleria {
     display: grid;
     grid-template-columns: 200px 400px 400px 200px;
@@ -277,12 +308,12 @@ main {
       width: fit-content;
       align-self: center;
       align-items: center;
-      border: #D9B97E;
+      border: #9EA1D4;
       border-style: double;
       margin: 0%;
       margin-left: 40%; }
       main .contenedorGaleria .btn2:hover {
-        background: #D9B97E; }
+        background: #9EA1D4; }
   main .contenedorGaleriaAbs {
     display: grid;
     grid-template-columns: 600px 600px;
@@ -312,7 +343,9 @@ main {
       margin-top: 10%;
       font-size: xx-large;
       margin-bottom: 3%;
-      grid-area: tituloBio; }
+      grid-area: tituloBio;
+      text-shadow: 1px 1px 12px #FFE488;
+      color: white; }
     main .contenedorBio .parrafo2 {
       grid-area: parrafo2;
       font-size: x-large;
@@ -411,7 +444,8 @@ footer {
     align-content: center; } }
 
 .img, .card1 > img, .card2 > img, .card3 > img, .cajaX > img, .cajaY > img, .cajaZ > img, .abstracta1 > img, .abstracta2 > img, .retrato1 > img, .retrato2 > img, .abstractaA > img, .abstractaB > img, .abstractaC > img, .abstractaD > img, .retratoA > img, .retratoB > img, .retratoC > img, .retratoD > img {
-  border-style: dotted;
+  box-shadow: 1px 1px 2px 2px beige;
+  border-radius: 10%;
   width: auto;
   height: auto;
   max-width: 300px;
@@ -423,9 +457,9 @@ footer {
 
 .tamañoA, main .titulo {
   font-size: xx-large;
-  text-decoration: underline;
+  text-decoration: none;
   margin-bottom: 3%;
-  color: #D9B97E;
+  color: #A8D1D1;
   text-shadow: 1px 1px 3px black; }
 
 header {
@@ -490,9 +524,11 @@ header {
         border: transparent;
         position: absolute;
         background-color: #80C7FF; }
-      header nav .navbar > input [type=checkbox] {
-        display: none;
-        visibility: hidden; }
+  header .navInput {
+    appearance: none; }
+    header .navInput > input [type=checkbox] {
+      display: none;
+      visibility: hidden; }
   header .navLabel {
     display: block;
     color: white;
@@ -507,12 +543,16 @@ header {
     display: flex; }
 
 a {
+  color: #000;
   margin-top: 50%;
-  text-decoration: none; }
+  text-decoration: none;
+  appearance: none; }
+  a:hover {
+    color: white; }
   a .headertext {
     text-decoration: none; }
     a .headertext #colortitulo {
-      color: #eda724;
+      color: #A8D1D1;
       text-shadow: 2px 2px 3px black; }
 
 .logo {
@@ -542,7 +582,7 @@ a {
     padding-top: 22%;
     padding-right: 49%;
     margin-top: 30%;
-    color: #eda724;
+    color: #A8D1D1;
     text-shadow: 2px 2px 3px black;
     text-decoration: none; }
   .navbar {
@@ -590,11 +630,13 @@ a {
     display: none; } }
 
 @media screen and (min-width: 700px) {
+  a:link, a:visited, a:active {
+    text-decoration: none; }
   .headertext {
     padding: 5%;
     margin-left: 10%;
     margin-top: 40%;
-    color: #eda724;
+    color: #A8D1D1;
     text-shadow: 2px 2px 3px black;
     text-decoration: none; }
   .navbar > ul {
@@ -626,11 +668,6 @@ a {
     visibility: hidden; } }
 
 /* Contenido Boostrap */
-body {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box; }
-
 header {
   height: 230px; }
 
@@ -642,8 +679,7 @@ header {
   align-items: center;
   justify-content: center; }
   .headerFullB a {
-    text-decoration: none;
-    color: indigo; }
+    text-decoration: none; }
   .headerFullB .headertextB {
     padding-top: 30%;
     padding-left: 0%;
@@ -654,8 +690,10 @@ header {
     text-decoration: none;
     text-align: center;
     line-height: 37px;
-    color: #eda724;
+    color: #A8D1D1;
     text-shadow: 2px 2px 3px black; }
+    .headerFullB .headertextB:hover {
+      color: white; }
   .headerFullB .logo {
     height: fit-content;
     width: fit-content;
@@ -714,17 +752,26 @@ header {
         margin-left: 20%;
         justify-content: start; }
     .headerFullB main {
-      padding: 32px; }
-      .headerFullB main form .formulario1 {
-        display: flex;
-        justify-content: center !important;
-        padding: 100%; }
-        .headerFullB main form .formulario1 > .txtContact {
-          display: flex;
-          width: 1160px;
-          padding-left: 200%; }
-          .headerFullB main form .formulario1 > .txtContact .name {
-            width: 1160px; }
+      padding: 32px;
+      border: 10ch; }
+      .headerFullB main .row {
+        width: 500px;
+        height: 600px; }
+        .headerFullB main .row form {
+          width: 50%;
+          display: inline-block;
+          padding: 10%;
+          width: 400px;
+          height: 500px; }
+          .headerFullB main .row form .formulario1 {
+            margin: 50%;
+            display: flex;
+            justify-content: center !important;
+            padding: 100%; }
+            .headerFullB main .row form .formulario1 > .txtContact {
+              justify-content: center;
+              display: inline-block;
+              width: 80%; }
     .headerFullB .footerB {
       display: flex;
       justify-content: center;
@@ -733,7 +780,8 @@ header {
       font: bolder; } }
 
 .img, .card1 > img, .card2 > img, .card3 > img, .cajaX > img, .cajaY > img, .cajaZ > img, .abstracta1 > img, .abstracta2 > img, .retrato1 > img, .retrato2 > img, .abstractaA > img, .abstractaB > img, .abstractaC > img, .abstractaD > img, .retratoA > img, .retratoB > img, .retratoC > img, .retratoD > img {
-  border-style: dotted;
+  box-shadow: 1px 1px 2px 2px beige;
+  border-radius: 10%;
   width: auto;
   height: auto;
   max-width: 300px;
@@ -745,23 +793,32 @@ header {
 
 .tamañoA, main .titulo {
   font-size: xx-large;
-  text-decoration: underline;
+  text-decoration: none;
   margin-bottom: 3%;
-  color: #D9B97E;
+  color: #A8D1D1;
   text-shadow: 1px 1px 3px black; }
 
 /* Tarjetas Index */
 .card1 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
+  .card1 .tamañoletra {
+    font-size: x-large; }
 
 .card2 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
+  .card2 .tamañoletra {
+    font-size: x-large; }
 
 .card3 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
+  .card3 .tamañoletra {
+    font-size: x-large; }
 
 .cajaX {
   width: 75%;
@@ -788,7 +845,7 @@ header {
     padding-top: 20%;
     padding-bottom: 20%; }
   .cajaY .numerotelefono {
-    text-decoration: underline; }
+    text-decoration: none; }
   .cajaY .whatsapp {
     height: 40px;
     width: 40px;
@@ -808,79 +865,94 @@ header {
 .abstracta1 {
   margin-top: 10px;
   margin-left: 9%;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstracta2 {
   margin-left: 11%;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retrato1 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retrato2 {
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 /* Tarjetas Obras Abstractas*/
 .abstractaA {
   grid-area: abstractaA;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstractaB {
   grid-area: abstractaB;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstractaC {
   grid-area: abstractaC;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .abstractaD {
   grid-area: abstractaD;
   margin-left: 10%;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 /*Tarjetas Retratos*/
 .retratoA {
   grid-area: rA;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retratoB {
   grid-area: rB;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retratoC {
   grid-area: rC;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 .retratoD {
   grid-area: rD;
+  -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: blueviolet; }
+  color: #FF8080; }
 
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .card2 {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .card3 {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .cajaX {
     margin-left: 23%; }
   .cajaY {
@@ -898,20 +970,24 @@ header {
     margin-left: 0%; }
   .abstractaA {
     margin-left: 15%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .abstractaB {
     margin-left: 5%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .abstractaC {
     margin-left: 10%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .abstractaD {
     padding-left: 10%;
+    -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
-    color: blueviolet; }
+    color: #FF8080; }
   .parrafo2 {
     font-size: x-large;
     grid-area: parrafo2; } }

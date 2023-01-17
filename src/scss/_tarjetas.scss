@@ -4,14 +4,23 @@
 .card1 {
         @include letraslindas;
         > img { @extend .img;}
+        .tamañoletra {
+        font-size: x-large;
+        }
 }
 .card2 {
         @include letraslindas;
         > img { @extend .img;}
+        .tamañoletra {
+            font-size: x-large;
+            }
     }
 .card3 {
         @include letraslindas;
         > img { @extend .img;}
+        .tamañoletra {
+            font-size: x-large;
+            }
     }
 .cajaX {
         width: 75%;
@@ -43,7 +52,7 @@
             padding-bottom: 20%;
         }
         .numerotelefono {
-            text-decoration: underline;
+            text-decoration: none;
         }
         .whatsapp {
             height: 40px;
