@@ -192,7 +192,7 @@ body {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin: 10%;
+    margin-left: 15%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
@@ -214,13 +214,13 @@ body {
     margin-left: 23%; }
   .abstracta1 {
     margin-top: 10px;
-    margin-left: 0%; }
+    margin-right: 10%; }
   .abstracta2 {
-    margin-left: 0%; }
+    margin-right: 10%; }
   .retrato1 {
-    margin-left: 0%; }
+    margin-right: 10%; }
   .retrato2 {
-    margin-left: 0%; }
+    margin-right: 10%; }
   .abstractaA {
     margin-left: 15%;
     -webkit-text-stroke: 0.1px black;
@@ -405,6 +405,8 @@ footer {
       justify-content: center; }
   main {
     grid-area: main; }
+    main .titulo {
+      align-self: center; }
     main .contenedor {
       display: grid;
       grid-template-columns: 1fr;
@@ -416,8 +418,8 @@ footer {
       margin-right: 20%;
       margin-bottom: 3%; }
       main .contenedor .btnbuy {
-        margin: 50%;
-        margin-left: 30%; }
+        margin: 60%;
+        margin-left: 20%; }
     main .contenedorGaleria {
       display: grid;
       grid-template-columns: 1fr;
@@ -429,6 +431,18 @@ footer {
       margin-bottom: 5%;
       margin-left: 15%;
       width: fit-content; }
+      main .contenedorGaleria .btn2 {
+        background-color: transparent;
+        cursor: pointer;
+        width: fit-content;
+        align-self: center;
+        align-items: center;
+        border: #9EA1D4;
+        border-style: double;
+        margin: 0%;
+        margin-left: 20%; }
+        main .contenedorGaleria .btn2:hover {
+          background: #9EA1D4; }
     main .contenedorGaleriaAbs {
       display: grid;
       grid-template-columns: 1fr;
@@ -449,7 +463,8 @@ footer {
       align-items: center;
       gap: 10px;
       row-gap: 10px;
-      padding-right: 10%; }
+      padding-right: 5%;
+      padding-left: 5%; }
     main .contenedorBio {
       display: grid;
       grid-template-columns: 1fr;
@@ -980,7 +995,7 @@ header {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin: 10%;
+    margin-left: 15%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
@@ -1002,13 +1017,13 @@ header {
     margin-left: 23%; }
   .abstracta1 {
     margin-top: 10px;
-    margin-left: 0%; }
+    margin-right: 10%; }
   .abstracta2 {
-    margin-left: 0%; }
+    margin-right: 10%; }
   .retrato1 {
-    margin-left: 0%; }
+    margin-right: 10%; }
   .retrato2 {
-    margin-left: 0%; }
+    margin-right: 10%; }
   .abstractaA {
     margin-left: 15%;
     -webkit-text-stroke: 0.1px black;

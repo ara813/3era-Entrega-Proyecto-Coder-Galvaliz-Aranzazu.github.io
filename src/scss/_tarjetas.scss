@@ -138,7 +138,7 @@
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width:700px) {
     .card1 {
-        margin:10%;
+        margin-left: 15%;
         @include letraslindas;
     }
     .card2 {
@@ -160,16 +160,16 @@
         }
     .abstracta1 {
             margin-top: 10px;
-            margin-left: 0%;
+            margin-right: 10%;
         }
     .abstracta2 {
-            margin-left: 0%;
+            margin-right: 10%;
         }
     .retrato1 {
-            margin-left: 0%; 
+            margin-right: 10%; 
         }
     .retrato2 {
-        margin-left: 0%;
+        margin-right: 10%;
         }
     .abstractaA {
             margin-left: 15%;
