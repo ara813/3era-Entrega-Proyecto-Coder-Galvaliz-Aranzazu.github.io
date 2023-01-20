@@ -33,6 +33,7 @@ header {
 }
 /* Main */
 main {
+    overflow: hidden;
     grid-area: main;
     .titulo {@extend .tamañoA}
     .textocontactos {
@@ -47,7 +48,6 @@ main {
         justify-content: center;
     }
     .contenedor {
-        overflow-x: hidden;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
