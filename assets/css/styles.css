@@ -5,6 +5,17 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  overflow-x: hidden; }
+
+body {
+  position: relative;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
 @font-face {
   font-family: fontAwesome;
   src: url(../fonts/fa-solid-900.ttf); }
@@ -31,6 +42,14 @@
   margin-bottom: 3%;
   color: #A8D1D1;
   text-shadow: 1px 1px 3px black; }
+
+@media screen and (max-width: 700px) {
+  .img, .card1 > img, .card2 > img, .card3 > img, .cajaX > img, .cajaY > img, .cajaZ > img, .abstracta1 > img, .abstracta2 > img, .retrato1 > img, .retrato2 > img, .abstractaA > img, .abstractaB > img, .abstractaC > img, .abstractaD > img, .retratoA > img, .retratoB > img, .retratoC > img, .retratoD > img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    overflow-x: hidden; } }
 
 /* Tarjetas Index */
 .card1 {
@@ -173,7 +192,7 @@
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 15%;
+    margin: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
@@ -264,6 +283,7 @@ main {
     display: flex;
     justify-content: center; }
   main .contenedor {
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -362,17 +382,18 @@ footer {
     font-size: x-large; }
 
 /* Sector movile */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   body {
-    width: 100%;
     overflow-x: hidden; }
     body .gidGeneral {
+      overflow-x: hidden;
       width: 100%;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       grid-template-areas: "header" "main" "footer"; }
   header {
+    overflow-x: hidden;
     grid-area: header; }
     header .gridSuperior {
       display: grid;
@@ -435,8 +456,9 @@ footer {
       justify-content: center;
       align-items: center; }
       main .contenedorBio .parrafo2 {
-        margin-top: 1%;
-        font-size: medium; }
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small; }
   footer {
     grid-area: footer;
     margin-top: 30px;
@@ -461,6 +483,14 @@ footer {
   margin-bottom: 3%;
   color: #A8D1D1;
   text-shadow: 1px 1px 3px black; }
+
+@media screen and (max-width: 700px) {
+  .img, .card1 > img, .card2 > img, .card3 > img, .cajaX > img, .cajaY > img, .cajaZ > img, .abstracta1 > img, .abstracta2 > img, .retrato1 > img, .retrato2 > img, .abstractaA > img, .abstractaB > img, .abstractaC > img, .abstractaD > img, .retratoA > img, .retratoB > img, .retratoC > img, .retratoD > img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    overflow-x: hidden; } }
 
 header {
   grid-area: header;
@@ -798,6 +828,14 @@ header {
   color: #A8D1D1;
   text-shadow: 1px 1px 3px black; }
 
+@media screen and (max-width: 700px) {
+  .img, .card1 > img, .card2 > img, .card3 > img, .cajaX > img, .cajaY > img, .cajaZ > img, .abstracta1 > img, .abstracta2 > img, .retrato1 > img, .retrato2 > img, .abstractaA > img, .abstractaB > img, .abstractaC > img, .abstractaD > img, .retratoA > img, .retratoB > img, .retratoC > img, .retratoD > img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    overflow-x: hidden; } }
+
 /* Tarjetas Index */
 .card1 {
   -webkit-text-stroke: 0.1px black;
@@ -939,7 +977,7 @@ header {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 15%;
+    margin: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }

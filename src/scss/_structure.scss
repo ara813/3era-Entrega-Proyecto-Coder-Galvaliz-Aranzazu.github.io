@@ -47,6 +47,7 @@ main {
         justify-content: center;
     }
     .contenedor {
+        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -136,11 +137,11 @@ footer {
     }
 }
 /* Sector movile */
-@media screen and (max-width:700px) { 
+@media screen and (max-width:900px) { 
         body {
-            width: 100%;
             overflow-x: hidden;
             .gidGeneral {
+                overflow-x: hidden;
                 width: 100%;
                 display: grid;
                 grid-template-columns: 1fr;
@@ -151,6 +152,7 @@ footer {
             }
         }
         header {
+            overflow-x: hidden;
             grid-area: header;
             .gridSuperior {
                 display: grid;
@@ -232,11 +234,11 @@ footer {
                 justify-content: center;
                 align-items: center;
                 .parrafo2 {
-                    margin-top: 1%;
-                    font-size:medium;
+                    margin-top: 5%;
+                    margin-bottom: 5% ;
+                    font-size:small;
                 }
             }
-   
     }
     footer {
         grid-area: footer;
