@@ -404,7 +404,8 @@ footer {
     main .titulo {
       align-self: center; }
     main .titulo1 {
-      margin: auto; }
+      align-self: center;
+      margin-right: 10%; }
     main .contenedor {
       display: grid;
       grid-template-columns: 1fr;
