@@ -36,6 +36,7 @@ main {
     overflow: hidden;
     grid-area: main;
     .titulo {@extend .tamañoA}
+    .titulo1 {@extend .tamañoA}
     .textocontactos {
         grid-area: titulo;
         font-size: xx-large;
@@ -168,6 +169,9 @@ footer {
             grid-area: main;
             .titulo {
                 align-self: center;
+            }
+            .titulo1 {
+                margin: auto;
             }
             .contenedor {
                 display: grid;
