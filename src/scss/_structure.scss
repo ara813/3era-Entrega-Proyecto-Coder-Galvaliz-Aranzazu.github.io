@@ -47,7 +47,6 @@ main {
         justify-content: center;
     }
     .contenedor {
-        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -182,7 +181,7 @@ footer {
                 justify-content: center;
                 align-items: center;
                 margin-left: 10%;
-                margin-right: 20%;
+                margin-right: 10%;
                 margin-bottom: 3%;
                 .btnbuy {
                     margin: 60%;
