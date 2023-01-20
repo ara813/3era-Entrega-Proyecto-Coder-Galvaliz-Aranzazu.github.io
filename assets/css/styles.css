@@ -413,7 +413,7 @@ footer {
       grid-template-areas: "card1" "card2"  "card3" "cajay" "cajax" "cajaz";
       justify-content: center;
       align-items: center;
-      margin-left: 10%;
+      margin-left: 5%;
       margin-right: 10%;
       margin-bottom: 3%; }
       main .contenedor .btnbuy {
@@ -428,7 +428,7 @@ footer {
       gap: 10px;
       row-gap: 30px;
       margin-bottom: 5%;
-      margin-left: 15%;
+      margin-left: 10%;
       width: fit-content; }
       main .contenedorGaleria .btn2 {
         background-color: transparent;
@@ -439,7 +439,7 @@ footer {
         border: #9EA1D4;
         border-style: double;
         margin: 0%;
-        margin-left: 20%; }
+        margin-left: 30%; }
         main .contenedorGaleria .btn2:hover {
           background: #9EA1D4; }
     main .contenedorGaleriaAbs {
