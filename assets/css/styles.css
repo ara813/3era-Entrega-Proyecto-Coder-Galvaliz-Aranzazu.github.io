@@ -192,17 +192,17 @@ body {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 10%;
+    margin-left: 5%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card2 {
-    margin-left: 10%;
+    margin-left: 5%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card3 {
-    margin-left: 10%;
+    margin-left: 5%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
@@ -414,7 +414,7 @@ footer {
       grid-template-areas: "card1" "card2"  "card3" "cajay" "cajax" "cajaz";
       justify-content: center;
       align-items: center;
-      margin-left: 5%;
+      margin-left: 0%;
       margin-right: 10%;
       margin-bottom: 3%; }
       main .contenedor .btnbuy {
@@ -995,17 +995,17 @@ header {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 10%;
+    margin-left: 5%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card2 {
-    margin-left: 10%;
+    margin-left: 5%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card3 {
-    margin-left: 10%;
+    margin-left: 5%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
