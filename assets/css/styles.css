@@ -192,31 +192,31 @@ body {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 5%;
+    margin-left: 7%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card2 {
-    margin-left: 5%;
+    margin-left: 7%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card3 {
-    margin-left: 6%;
+    margin-left: 7%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .cajaX {
-    margin-left: 15%; }
+    margin-left: 13%; }
   .cajaY {
     margin-left: 12%; }
   .cajaZ {
-    margin-left: 15%; }
+    margin-left: 13%; }
   .abstracta1 {
     margin-top: 10px;
-    margin-right: 13%; }
+    margin-right: 15%; }
   .abstracta2 {
-    margin-right: 13%; }
+    margin-right: 15%; }
   .retrato1 {
     margin-right: 10%; }
   .retrato2 {
@@ -415,7 +415,7 @@ footer {
       margin-bottom: 3%; }
       main .contenedor .btnbuy {
         margin: 60%;
-        margin-left: 20%; }
+        margin-left: 30%; }
     main .contenedorGaleria {
       display: grid;
       grid-template-columns: 1fr;
@@ -447,9 +447,7 @@ footer {
       justify-content: space-evenly;
       align-items: center;
       gap: 10px;
-      row-gap: 30px;
-      padding-right: 5%;
-      padding-left: 5%; }
+      row-gap: 30px; }
     main .contenedorGaleriaRetratos {
       display: grid;
       grid-template-columns: 1fr;
@@ -991,31 +989,31 @@ header {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 5%;
+    margin-left: 7%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card2 {
-    margin-left: 5%;
+    margin-left: 7%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card3 {
-    margin-left: 6%;
+    margin-left: 7%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .cajaX {
-    margin-left: 15%; }
+    margin-left: 13%; }
   .cajaY {
     margin-left: 12%; }
   .cajaZ {
-    margin-left: 15%; }
+    margin-left: 13%; }
   .abstracta1 {
     margin-top: 10px;
-    margin-right: 13%; }
+    margin-right: 15%; }
   .abstracta2 {
-    margin-right: 13%; }
+    margin-right: 15%; }
   .retrato1 {
     margin-right: 10%; }
   .retrato2 {
