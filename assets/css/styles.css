@@ -192,26 +192,26 @@ body {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 15%;
+    margin-left: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card2 {
-    margin-left: 15%;
+    margin-left: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card3 {
-    margin-left: 15%;
+    margin-left: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .cajaX {
-    margin-left: 23%; }
+    margin-left: 20%; }
   .cajaY {
     margin-left: 20%; }
   .cajaZ {
-    margin-left: 23%; }
+    margin-left: 20%; }
   .abstracta1 {
     margin-top: 10px;
     margin-right: 10%; }
@@ -994,26 +994,26 @@ header {
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
   .card1 {
-    margin-left: 15%;
+    margin-left: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card2 {
-    margin-left: 15%;
+    margin-left: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .card3 {
-    margin-left: 15%;
+    margin-left: 10%;
     -webkit-text-stroke: 0.1px black;
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .cajaX {
-    margin-left: 23%; }
+    margin-left: 20%; }
   .cajaY {
     margin-left: 20%; }
   .cajaZ {
-    margin-left: 23%; }
+    margin-left: 20%; }
   .abstracta1 {
     margin-top: 10px;
     margin-right: 10%; }
