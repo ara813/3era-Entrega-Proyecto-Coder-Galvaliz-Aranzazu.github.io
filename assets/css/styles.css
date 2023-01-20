@@ -214,9 +214,9 @@ body {
     margin-left: 20%; }
   .abstracta1 {
     margin-top: 10px;
-    margin-right: 10%; }
+    margin-right: 15%; }
   .abstracta2 {
-    margin-right: 10%; }
+    margin-right: 15%; }
   .retrato1 {
     margin-right: 10%; }
   .retrato2 {
@@ -440,7 +440,7 @@ footer {
         border: #9EA1D4;
         border-style: double;
         margin: 0%;
-        margin-left: 30%; }
+        margin-left: 35%; }
         main .contenedorGaleria .btn2:hover {
           background: #9EA1D4; }
     main .contenedorGaleriaAbs {
@@ -452,8 +452,8 @@ footer {
       align-items: center;
       gap: 10px;
       row-gap: 30px;
-      margin-left: 20%;
-      margin-right: 20%; }
+      padding-right: 5%;
+      padding-left: 5%; }
     main .contenedorGaleriaRetratos {
       display: grid;
       grid-template-columns: 1fr;
@@ -1017,9 +1017,9 @@ header {
     margin-left: 20%; }
   .abstracta1 {
     margin-top: 10px;
-    margin-right: 10%; }
+    margin-right: 15%; }
   .abstracta2 {
-    margin-right: 10%; }
+    margin-right: 15%; }
   .retrato1 {
     margin-right: 10%; }
   .retrato2 {

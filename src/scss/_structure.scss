@@ -203,7 +203,7 @@ footer {
                 .btn2 {
                     @include boton;
                     margin: 0%;
-                    margin-left: 30%;
+                    margin-left: 35%;
                     }
             }
             .contenedorGaleriaAbs {
@@ -218,8 +218,8 @@ footer {
                 align-items: center;
                 gap: 10px;
                 row-gap: 30px;
-                margin-left: 20%;
-                margin-right: 20%;
+                padding-right: 5%;
+                padding-left: 5%;
             }
             .contenedorGaleriaRetratos {
                 display: grid;
