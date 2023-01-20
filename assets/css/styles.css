@@ -370,7 +370,9 @@ main {
       grid-area: parrafo2;
       font-size: x-large;
       margin-top: 10%;
-      margin-bottom: 5%; }
+      margin-bottom: 5%;
+      color: white;
+      text-shadow: 1px 1px 12px #FFE488; }
 
 /* Footer */
 footer {
