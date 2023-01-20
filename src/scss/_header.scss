@@ -154,7 +154,7 @@ header {
     }
     > ul {
         text-decoration: none;
-        margin-top: 40%;
+        margin-top: 30%;
         position: fixed;
         top: 100px;
         flex-direction: column;
@@ -173,6 +173,7 @@ header {
         }
         > li {
              @include colorli (pink);
+             gap: 1px;
                }
         .li {
             text-decoration: none;
