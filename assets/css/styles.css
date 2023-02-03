@@ -55,23 +55,59 @@ body {
 .card1 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
   .card1 .tamañoletra {
     font-size: x-large; }
+  .card1 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .card1 .btn:hover {
+      background: #9EA1D4; }
 
 .card2 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
   .card2 .tamañoletra {
     font-size: x-large; }
+  .card2 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .card2 .btn:hover {
+      background: #9EA1D4; }
 
 .card3 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
   .card3 .tamañoletra {
     font-size: x-large; }
+  .card3 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .card3 .btn:hover {
+      background: #9EA1D4; }
 
 .cajaX {
   width: 75%;
@@ -120,74 +156,218 @@ body {
   margin-left: 9%;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstracta1 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstracta1 .btn:hover {
+      background: #9EA1D4; }
 
 .abstracta2 {
   margin-left: 11%;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstracta2 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstracta2 .btn:hover {
+      background: #9EA1D4; }
 
 .retrato1 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retrato1 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retrato1 .btn:hover {
+      background: #9EA1D4; }
 
 .retrato2 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retrato2 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retrato2 .btn:hover {
+      background: #9EA1D4; }
 
 /* Tarjetas Obras Abstractas*/
 .abstractaA {
   grid-area: abstractaA;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaA .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaA .btn:hover {
+      background: #9EA1D4; }
 
 .abstractaB {
   grid-area: abstractaB;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaB .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaB .btn:hover {
+      background: #9EA1D4; }
 
 .abstractaC {
   grid-area: abstractaC;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaC .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaC .btn:hover {
+      background: #9EA1D4; }
 
 .abstractaD {
   grid-area: abstractaD;
   margin-left: 10%;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaD .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaD .btn:hover {
+      background: #9EA1D4; }
 
 /*Tarjetas Retratos*/
 .retratoA {
   grid-area: rA;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoA .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoA .btn:hover {
+      background: #9EA1D4; }
 
 .retratoB {
   grid-area: rB;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoB .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoB .btn:hover {
+      background: #9EA1D4; }
 
 .retratoC {
   grid-area: rC;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoC .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoC .btn:hover {
+      background: #9EA1D4; }
 
 .retratoD {
   grid-area: rD;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoD .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoD .btn:hover {
+      background: #9EA1D4; }
 
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
@@ -238,7 +418,7 @@ body {
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .parrafo2 {
-    font-size: x-large;
+    font-size: 16px;
     grid-area: parrafo2; } }
 
 /* Estructura general del proyecto */
@@ -470,9 +650,8 @@ footer {
       justify-content: center;
       align-items: center; }
       main .contenedorBio .parrafo2 {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        font-size: small; }
+        margin: 5%;
+        font-size: 16px; }
   footer {
     grid-area: footer;
     margin-top: 30px;
@@ -855,23 +1034,59 @@ header {
 .card1 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
   .card1 .tamañoletra {
     font-size: x-large; }
+  .card1 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .card1 .btn:hover {
+      background: #9EA1D4; }
 
 .card2 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
   .card2 .tamañoletra {
     font-size: x-large; }
+  .card2 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .card2 .btn:hover {
+      background: #9EA1D4; }
 
 .card3 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
   .card3 .tamañoletra {
     font-size: x-large; }
+  .card3 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .card3 .btn:hover {
+      background: #9EA1D4; }
 
 .cajaX {
   width: 75%;
@@ -920,74 +1135,218 @@ header {
   margin-left: 9%;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstracta1 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstracta1 .btn:hover {
+      background: #9EA1D4; }
 
 .abstracta2 {
   margin-left: 11%;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstracta2 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstracta2 .btn:hover {
+      background: #9EA1D4; }
 
 .retrato1 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retrato1 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retrato1 .btn:hover {
+      background: #9EA1D4; }
 
 .retrato2 {
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retrato2 .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retrato2 .btn:hover {
+      background: #9EA1D4; }
 
 /* Tarjetas Obras Abstractas*/
 .abstractaA {
   grid-area: abstractaA;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaA .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaA .btn:hover {
+      background: #9EA1D4; }
 
 .abstractaB {
   grid-area: abstractaB;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaB .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaB .btn:hover {
+      background: #9EA1D4; }
 
 .abstractaC {
   grid-area: abstractaC;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaC .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaC .btn:hover {
+      background: #9EA1D4; }
 
 .abstractaD {
   grid-area: abstractaD;
   margin-left: 10%;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .abstractaD .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .abstractaD .btn:hover {
+      background: #9EA1D4; }
 
 /*Tarjetas Retratos*/
 .retratoA {
   grid-area: rA;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoA .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoA .btn:hover {
+      background: #9EA1D4; }
 
 .retratoB {
   grid-area: rB;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoB .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoB .btn:hover {
+      background: #9EA1D4; }
 
 .retratoC {
   grid-area: rC;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoC .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoC .btn:hover {
+      background: #9EA1D4; }
 
 .retratoD {
   grid-area: rD;
   -webkit-text-stroke: 0.1px black;
   text-shadow: 1px 1px 3px #f5efef;
-  color: #FF8080; }
+  color: #FF8080;
+  line-height: 200%; }
+  .retratoD .btn {
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    align-items: center;
+    border: #9EA1D4;
+    border-style: double;
+    line-height: 10%; }
+    .retratoD .btn:hover {
+      background: #9EA1D4; }
 
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width: 700px) {
@@ -1038,5 +1397,5 @@ header {
     text-shadow: 1px 1px 3px #f5efef;
     color: #FF8080; }
   .parrafo2 {
-    font-size: x-large;
+    font-size: 16px;
     grid-area: parrafo2; } }

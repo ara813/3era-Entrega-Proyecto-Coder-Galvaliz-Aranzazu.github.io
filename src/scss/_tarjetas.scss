@@ -3,23 +3,38 @@
 /* Tarjetas Index */
 .card1 {
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
         .tamañoletra {
         font-size: x-large;
         }
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
 }
 .card2 {
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
         .tamañoletra {
             font-size: x-large;
             }
+        .btn {
+                @include boton;
+                line-height: 10%;
+            }
     }
 .card3 {
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
         .tamañoletra {
             font-size: x-large;
+            }
+        .btn {
+                @include boton;
+                line-height: 10%;
             }
     }
 .cajaX {
@@ -77,63 +92,123 @@
         margin-top: 10px;
         margin-left: 9%;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
     }
 .abstracta2 {
         margin-left: 11%;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
     }
 .retrato1 {
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
     }
 .retrato2 {
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
     }
 /* Tarjetas Obras Abstractas*/
 .abstractaA {
         grid-area: abstractaA;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 .abstractaB{
         grid-area: abstractaB;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 .abstractaC{
         grid-area: abstractaC;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 .abstractaD{
         grid-area: abstractaD;
         margin-left: 10%;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 /*Tarjetas Retratos*/
 .retratoA{
         grid-area: rA;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 .retratoB{
         grid-area: rB;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         } 
 .retratoC{
         grid-area: rC;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 .retratoD{
         grid-area: rD;
         @include letraslindas;
+        line-height: 200%;
         > img { @extend .img;}
+        .btn {
+            @include boton;
+            line-height: 10%;
+        }
         }
 /*Tarjetas Adaptadas Movile*/
 @media screen and (max-width:700px) {
@@ -185,7 +260,7 @@
             
         }
     .parrafo2 {
-            font-size: x-large;
+            font-size: 16px;
             grid-area: parrafo2;
         }    
 }
